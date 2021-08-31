@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VideoChattingPOC"
         android:usesCleartextTraffic="true">
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,14 +20,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!--<service
-            android:name=".firebase.MessagingService"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-            </intent-filter>
-        </service>-->
+        <activity
+            android:name=".LockScreenActivity"
+            android:showOnLockScreen="true" />
 
         <service
             android:name=".firebase.MessagingService"
@@ -36,4 +32,5 @@
             </intent-filter>
         </service>
     </application>
+
 </manifest>
