@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "218007908556",
+    "project_id": "video-chatting-poc",
+    "storage_bucket": "video-chatting-poc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218007908556:android:b8fa5cb121aed06df31269",
+        "android_client_info": {
+          "package_name": "com.example.videochattingpoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218007908556-dth6um1tfm44qa9bqjhk0vjln8ls4mh0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj4EoW3wa8GfhKiYuKd4_iwKzN1hKO8vc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218007908556-dth6um1tfm44qa9bqjhk0vjln8ls4mh0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
