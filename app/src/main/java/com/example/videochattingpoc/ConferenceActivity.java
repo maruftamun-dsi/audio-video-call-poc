@@ -44,8 +44,6 @@ public class ConferenceActivity extends AppCompatActivity {
             serverURL = new URL("https://meet.jit.si");
             // serverURL = new URL("https://ssfapp.innovatorslab.net:8443");
 
-            UserInfo userInfo = new UserInfo("", "", "", false);
-
             JitsiMeetConferenceOptions defaultOptions
                     = new JitsiMeetConferenceOptions.Builder()
                     .setServerURL(serverURL)
